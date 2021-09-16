@@ -60,7 +60,7 @@ article{
     border-radius: 10px;
     width: 600px;
     padding: 10px;
-    display: flex;
+    /* display: flex; */
     background-color: #fff;
 }
 
@@ -112,4 +112,17 @@ article{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+}
+
+.displayFlex{
+    display: flex;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+
+.displayInlineFlex{
+    display: inline-flex;
+    border: 1px solid black;
+    margin: 5px;
 }
