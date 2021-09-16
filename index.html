@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <aside>
+
+            <h3>flex box</h3>
+                <ul>
+                    <li>main axis</li>
+                    <li>cross axis</li>
+                </ul>
+
+            <h3>flex container</h3>
+                <ul>
+                    <li>display</li>
+                    <li>flex-direction</li>
+                    <li>flex-wrap</li>
+                    <li>flex-flow</li>
+                    <li>justify-content</li>
+                    <li>align-items</li>
+                    <li>align-content</li>
+                    <li>gap</li>
+                </ul>
+
+            <h3>flex items</h3>
+                <ul>
+                    <li>order</li>
+                    <li>flex-grow</li>
+                    <li>flex-shrink</li>
+                    <li>flex-basis</li>
+                    <li>flex</li>
+                    <li>align-self</li>
+                </ul>
+        </aside>
+    
+        <section>
+            
+            <article>
+                <header>
+                    Main Axis
+                </header>
+                <p>                    
+                    El main axis de un contenedor flex es el eje principal a lo largo del cual se colocan los artículos flexibles. Cuidado, no es necesariamente horizontal, depende de la propiedad flex-direction
+                </p>
+
+                <div id="mainAxis" class="box-code">
+                    <div>
+                        <span>start</span>
+                        <span>main-axis</span>
+                        <span>end</span>
+                    </div>
+                </div>
+
+            </article>
+
+
+            <article>
+                <header>
+                    Across Axis
+                </header>
+                <p>
+                    El cross-axis es el eje transversal al eje principal. Su dirección depende de la dirección del eje principal.
+                </p>
+
+                <div id="crossAxis" class="box-code">
+                    <div>
+                        <span>start</span>
+                        <span>across-axis</span>
+                        <span>end</span>
+                    </div>
+                </div>
+
+            </article>
+
+            <article id="display">
+                <header>
+                    DISPLAY
+                </header>
+                <p>
+                    El cross-axis es el eje transversal al eje principal. Su dirección depende de la dirección del eje principal.
+                </p>
+
+                <div class="box-example">
+                   <div class="item">a</div>
+                   <div class="item">b</div>
+                   <div class="item">c</div>
+                </div>
+
+            </article>
+
+        </section>
+
+    </div>
+    
+</body>
+</html>
