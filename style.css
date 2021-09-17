@@ -127,3 +127,22 @@ article{
     border: 1px solid black;
     margin: 5px;
 }
+
+.flexDirectionRow{
+    display: flex;
+    flex-direction: row;
+}
+
+.flexDirectionRowReverse{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.flexDirectionColumn{
+    display: flex;
+    flex-direction:column
+}
+.flexDirectionColumnReverse{
+    display: flex;
+    flex-direction:column-reverse
+}
