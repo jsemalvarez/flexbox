@@ -74,6 +74,7 @@ article{
     align-items: center;
     background-color: #2980b9;
     font-size: 40px;
+    border: 1px solid #034f84;
 }
 
 .box-code{
@@ -145,4 +146,19 @@ article{
 .flexDirectionColumnReverse{
     display: flex;
     flex-direction:column-reverse
+}
+
+.flexWrapNoWrap{
+    display: flex;
+    /* flex-wrap: nowrap; */
+}
+
+.flexWrapWrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flexWrapWrapReverse{
+    display: flex;
+    flex-wrap: wrap-reverse;
 }
