@@ -168,3 +168,34 @@ article{
     display: flex;
     flex-flow: row wrap;
 }
+
+.flexJustifyContentFlexStart{
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.flexJustifyContentFlexEnd{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.flexJustifyContentCenter{
+    display: flex;
+    justify-content: center;
+}
+
+.flexJustifyContentSpaceBetween{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexJustifyContentSpaceAround{
+    display: flex;
+    justify-content: space-around;
+}
+
+.flexJustifyContentSpaceEvenly{
+    display: flex;
+    justify-content: space-evenly;
+}
