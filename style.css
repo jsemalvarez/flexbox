@@ -263,3 +263,51 @@ article{
 .heightItemC{
    font-size: 45px;
 }
+
+
+.flexAlingContentFlexStart{
+    height: 300px;
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+
+.flexAlingContentFlexEnd{
+    height: 300px;
+    display: flex;
+    align-content: flex-end;
+    flex-wrap: wrap;
+}
+
+
+.flexAlingContentCenter{
+    height: 300px;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+
+.flexAlingContentStretch{
+    height: 300px;
+    display: flex;
+    align-content: stretch;
+    flex-wrap: wrap;
+}
+
+.flexAlingContentSpaceBetween{
+    height: 300px;
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+.flexAlingContentSpaceAround{
+    height: 300px;
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+
+
